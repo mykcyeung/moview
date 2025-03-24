@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Global styling for light and dark mode */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: 'Lexend', sans-serif; /* Set Lexend as the primary font */
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Apply background, text color, and Lexend font */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Lexend', 'Roboto', sans-serif; /* Lexend as the primary font with fallback to Roboto */
+}
+
