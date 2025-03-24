@@ -52,7 +52,7 @@ export default function Home() {
         <Search />
       </div>
       {movies.length === 0 ? (
-        <div className="flex justify-center items-center font-bold text-2xl">
+        <div className="flex justify-center items-center font-bold text-2xl min-h-screen">
           Oops...seems no review to show
         </div>
       ) : (
