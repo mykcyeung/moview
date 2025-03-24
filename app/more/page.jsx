@@ -166,7 +166,7 @@ const Page = () => {
         <div className='flex flex-col text-center justify-center items-center gap-2'>
           <div className='text-3xl md:text-5xl font-bold'>Hey there, this is <span className='text-5xl md:text-6xl  mx-2 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-indigo-700 to-blue-800'>Jay</span></div>
           <div className='text-lg md:text-2xl font-extralight'>
-            Let's get in toup for any opportunities!
+            Let's get in touch for any opportunities!
           </div>
           <div className="mt-4 flex gap-8">
             {contacts.map((contact) => (
