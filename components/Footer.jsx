@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className='my-14 flex flex-col justify-center items-center gap-3'>
+    <div className='my-14 flex flex-col justify-center items-center gap-3 bottom-0'>
       <div className='flex gap-4'>
         <Link
           target='_blank'
