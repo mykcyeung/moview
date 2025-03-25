@@ -16,7 +16,8 @@ export default function Home() {
     const fetchMovies = async () => {
       try {
         // Fetch from API Gateway (replace with your actual API URL)
-        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/reviews`
+        const response = await fetch(`https://1csyc8cvh8.execute-api.eu-west-2.amazonaws.com/prod/reviews`
+                                     
           //enable CORS
           // , {
           // method: "GET",
